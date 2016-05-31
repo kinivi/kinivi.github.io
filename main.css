@@ -120,6 +120,7 @@ footer {
     img.logo {padding-top:5px;}
    }
 .jumbotron{
+    box-shadow: inset 0px 2px 6px 0.00px rgba(64, 64, 64, 0.3);
     background-color: #4ca368;
     padding-top:100px;
     text-align: center;
@@ -144,8 +145,11 @@ footer {
 .contacts{
     text-align: right;
 }
-.contacts span:first-child{
+.contacts span:first-of-type{
     margin-right: 38px;
+}
+.contacts i{
+    margin-right: 10px;
 }
 .header-img {
     margin:0 auto;
